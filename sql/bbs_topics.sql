@@ -1,0 +1,23 @@
+CREATE TABLE `bbs_topics` (
+  `topic_id` int(11) NOT NULL AUTO_INCREMENT,
+  `node_id` smallint(5) NOT NULL DEFAULT '0',
+  `uid` mediumint(8) NOT NULL DEFAULT '0',
+  `ruid` mediumint(8) DEFAULT NULL,
+  `title` varchar(128) DEFAULT NULL,
+  `keywords` varchar(255) DEFAULT NULL,
+  `content` text,
+  `addtime` int(10) DEFAULT NULL,
+  `updatetime` int(10) DEFAULT NULL,
+  `lastreply` int(10) DEFAULT NULL,
+  `views` int(10) DEFAULT '0',
+  `comments` smallint(8) DEFAULT '0',
+  `favorites` int(10) unsigned DEFAULT '0',
+  `closecomment` tinyint(1) DEFAULT NULL,
+  `is_top` tinyint(1) NOT NULL DEFAULT '0',
+  `is_hidden` tinyint(1) NOT NULL DEFAULT '0',
+  `ord` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`topic_id`,`node_id`,`uid`),
+  KEY `updatetime` (`updatetime`),
+  KEY `ord` (`ord`),
+  FULLTEXT KEY `title` (`title`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
