@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $config = array (
-  'site_name' => 'StartBBS- 开源微社区-烧饼bbs',
+  'site_name' => '爱情故事',
   'index_page' => 'index.php',
   'show_captcha' => 'on',
   'site_close' => 'on',
@@ -10,7 +10,7 @@ $config = array (
   'version' => false,
   'static' => 'white',
   'themes' => 'default',
-  'logo' => 'Start<span class=\'green\'>BBS</span>',
+  'logo' => '爱情<span class=\'red\'>故事</span>',
   'auto_tag' => 'on',
   'encryption_key' => '092dec50b7c52073b06562ca036058ef',
 );

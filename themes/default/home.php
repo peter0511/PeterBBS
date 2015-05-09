@@ -79,7 +79,6 @@
 				    </div>
 				    <div class="panel-body">
 				        <ul class="list-unstyled">
-					        <li style="width:0; height:0; overflow:hidden;"><a href="http://www.startbbs.com" target="_blank">StartBBS</a></li>
 							<?php if($links){?>
 							<?php foreach($links as $v){?>
 							<?php if($v['is_hidden']==0){?>
@@ -95,10 +94,8 @@
 				    </div>
 				</div>
 			</div><!-- /.col-md-4 -->
-
         </div><!-- /.row -->
     </div><!-- /.container -->
-
 <?php $this->load->view('common/footer');?>
 <script>
 $(function() {
@@ -114,6 +111,5 @@ $(function() {
 		});
 		
 </script>
-
 </body>
 </html>

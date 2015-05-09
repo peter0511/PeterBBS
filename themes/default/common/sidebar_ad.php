@@ -3,6 +3,6 @@
         <h3 class="panel-title">广告位</h3>
     </div>
     <div class="panel-body">
-        <a href="http://www.startbbs.com">StartBBS</a>-一款轻量简单易用的开源社区程序
+        <a href="http://user.qzone.qq.com/344468043/">Peter攀</a>-一个新的程序员
     </div>
 </div>
